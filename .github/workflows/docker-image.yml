@@ -38,4 +38,3 @@ jobs:
     - name: Push custom tag
       run: |
         docker push $DOCKERHUB_USERNAME/$IMAGE_NAME:$CUSTOM_TAG
- 
